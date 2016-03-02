@@ -1,0 +1,27 @@
+{
+    "name": "jaybizzle/rankinty-api",
+    "type": "library",
+    "description": "A simple PHP wrapper for the Rankinity API",
+    "keywords": ["rankinity", "api"],
+    "homepage": "https://github.com/JayBizzle/Rankinity-API/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Beech",
+            "email": "mbeech@mark-beech.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jaybizzle\\": "src/"
+        }
+    }
+}

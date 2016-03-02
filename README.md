@@ -1,5 +1,5 @@
 # Rankinity API
-[![Build Status](https://travis-ci.org/JayBizzle/Rankinity-API.svg)](https://travis-ci.org/JayBizzle/Rankinity-API) [![StyleCI](https://styleci.io/repos/52999050/shield)](https://styleci.io/repos/52999050) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Rankinity-API.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/rankinity-api)
+[![Build Status](https://img.shields.io/travis/JayBizzle/Rankinity/master.svg?style=flat-square)](https://travis-ci.org/JayBizzle/Rankinity) [![StyleCI](https://styleci.io/repos/52999050/shield)](https://styleci.io/repos/52999050) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Rankinity-API.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/rankinity-api)
 ### Installation
 Add `"jaybizzle/rankinity-api": "1.*"` to your composer.json.
 

@@ -1,5 +1,6 @@
 <?php
-require('vendor/autoload.php');
+
+require 'vendor/autoload.php';
 
 use Jaybizzle\Rankinity;
 
@@ -17,5 +18,3 @@ $t = $test->project('558d1d93c9268eb9950000f3')->searchEngine('5250108048d943be4
 //$test->triggerDeployment();
 
 var_dump($t);
-
-

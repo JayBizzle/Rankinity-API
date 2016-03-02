@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 02 Mar 2016 22:19:07 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Status: 200 OK
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "79c34bbc5dc4be530ac98045e36ef230"
+Cache-Control: must-revalidate, private, max-age=0
+X-Request-Id: ae02fe17d5e4c93895d3e6cd2bd01b38
+X-Runtime: 0.236485
+X-Rack-Cache: miss
+Content-Encoding: gzip
+
+{"competitors":[{"id":"447d5143aec0af6041111d7a","name":"Competitor","link":"competitor.co.uk","screenshot":"http://s3.amazonaws.com/rankinity/screenshots/447d5143aec0af6041111d7a/medium.jpg?1456724053","created_at":1435324739000}]}

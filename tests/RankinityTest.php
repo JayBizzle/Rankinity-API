@@ -20,21 +20,21 @@ class RankinityTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($expected, $result);
     }
 
-    // public function testGetUsersResponse()
-    // {
-    //     $client = new Client();
+    public function testGetUsersResponse()
+    {
+        $client = new Client();
 
-    //     $mock = new Mock();
-    //     $mock->addResponse(__DIR__.'/responses/getUsersResponse.txt');
+        $mock = new Mock();
+        $mock->addResponse(__DIR__.'/responses/getCompetitorResponse.txt');
 
-    //     $client->getEmitter()->attach($mock);
+        $client->getEmitter()->attach($mock);
 
-    //     $db = new Rankinity('foo_api_key', $client);
+        $db = new Rankinity('foo_api_key', $client);
 
-    //     $result = $db->getUsers();
+        $result = $db->project('project_id')->getCompetitors();
 
-    //     $this->assertEquals(3, count($result->entries));
-    // }
+        $this->assertEquals(1, count($result->competitors));
+    }
 
     public function testAddingQueryParams()
     {

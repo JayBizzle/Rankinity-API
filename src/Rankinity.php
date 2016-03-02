@@ -32,7 +32,7 @@ class Rankinity
 
     /**
      * Dynamically add query parameters or call API endpoints.
-     * 
+     *
      * @param string $method
      * @param array  $args
      *
@@ -47,13 +47,15 @@ class Rankinity
 
             return $this->buildRequest($name, $args);
         } else {
-            if($name == 'project') {
+            if ($name == 'project') {
                 $this->api_endpoint .= 'projects/'.$args[0].'/';
+
                 return $this;
             }
 
-            if($name == 'searchEngine') {
+            if ($name == 'searchEngine') {
                 $this->api_endpoint .= 'search_engines/'.$args[0].'/';
+
                 return $this;
             }
 
@@ -63,7 +65,7 @@ class Rankinity
 
     /**
      * Add query parameters.
-     * 
+     *
      * @param string $method
      * @param array  $args
      *
@@ -80,7 +82,7 @@ class Rankinity
 
     /**
      * Prepare the request.
-     * 
+     *
      * @param string $resource
      * @param array  $args
      * @param string $method
@@ -104,7 +106,7 @@ class Rankinity
 
     /**
      * Send the request.
-     * 
+     *
      * @param string $resource
      * @param array  $args
      * @param string $method
@@ -130,7 +132,7 @@ class Rankinity
 
     /**
      * Convert camelCase methods to snake_case params.
-     * 
+     *
      * @param string $value
      * @param string $delimiter
      *
